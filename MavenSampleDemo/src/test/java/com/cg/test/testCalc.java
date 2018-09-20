@@ -1,8 +1,7 @@
 package com.cg.test;
 
+import org.junit.Assert;
 import org.junit.Test;
-
-import junit.framework.Assert;
 
 import com.cg.bean.Calculator;
 public class testCalc {
@@ -19,7 +18,7 @@ public class testCalc {
 	public void test_sub()
 	{
 		Calculator calc = new Calculator();
-		int res = calc.add(6,4);
+		int res = calc.sub(6,4);
 		Assert.assertEquals(2, res);
 	}
 
